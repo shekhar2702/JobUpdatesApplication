@@ -22,7 +22,6 @@ async function sendJobUpdatesViaEmail(jobsObject, email) {
       text: messageBody,
       from: "somyashekharraj5549@gmail.com",
       to: email,
-      // cc: 'somyashekharraj5549@gmail.com',
       subject: "New Job Alerts.",
     });
 
