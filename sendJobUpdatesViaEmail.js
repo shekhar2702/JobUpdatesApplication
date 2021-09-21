@@ -25,7 +25,7 @@ async function sendJobUpdatesViaEmail(jobsObject, email) {
       subject: "New Job Alerts.",
     });
 
-    console.log("Job update sent successfully to the user!!");
+    console.log("Job update sent successfully to the user!!Please check your mail.");
   } catch (err) {
     console.error(err);
   }
